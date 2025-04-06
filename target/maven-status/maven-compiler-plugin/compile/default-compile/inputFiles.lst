@@ -1,0 +1,14 @@
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/TradeonAiApplication.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/controller/AuthController.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/controller/CompanyController.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/controller/StockController.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/model/Company.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/model/Stock.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/repository/CompanyRepository.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/repository/StockRepository.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/CompanyService.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/EmailService.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/OtpEmailService.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/OtpService.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/PdfGeneratorService.java
+/Users/krishkalavadia/Downloads/Krish-Java/Tradeon_Project/TradeonAi/src/main/java/com/Tradeonai/service/StockService.java
