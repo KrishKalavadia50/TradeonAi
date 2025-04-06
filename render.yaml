@@ -1,19 +1,18 @@
 services:
-  - type: web
-    name: tradeonai-backend
+  - type: worker
+    name: tradeonai-backend-worker
     plan: free
-    runtime: static
     buildCommand: ./mvnw clean package -DskipTests
     startCommand: java -jar target/*.jar
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: jdbc:mysql://your-free-mysql-host:3306/stock_db
+        value: jdbc:mysql://localhost:3306/stock_db
       - key: SPRING_DATASOURCE_USERNAME
-        value: your_username
+        value: root
       - key: SPRING_DATASOURCE_PASSWORD
-        value: your_password
+        value: @kri$h@A
       - key: SPRING_KAFKA_BOOTSTRAP_SERVERS
-        value: your-kafka-host:9092
+        value: localhost:9092
       - key: SPRING_MAIL_USERNAME
         value: tradeonai50@gmail.com
       - key: SPRING_MAIL_PASSWORD
