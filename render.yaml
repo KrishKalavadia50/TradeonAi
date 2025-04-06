@@ -2,6 +2,7 @@ services:
   - type: web
     name: tradeonai-backend
     plan: free
+    runtime: java
     buildCommand: ./mvnw clean install
     startCommand: java -jar target/*.jar
     envVars:
