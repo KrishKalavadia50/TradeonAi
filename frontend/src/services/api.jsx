@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/api/companies"; // Update with your backend URL
+const API_URL = "https://javaspringboot-production-3d18.up.railway.app/api/companies"; // Update with your backend URL
 
 export const registerCompany = async (formData) => {
     try {
