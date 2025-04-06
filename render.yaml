@@ -7,13 +7,13 @@ services:
     startCommand: java -jar target/*.jar
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: jdbc:mysql://localhost:3306/stock_db
+        value: jdbc:mysql://your-free-mysql-host:3306/stock_db
       - key: SPRING_DATASOURCE_USERNAME
-        value: root
+        value: your_username
       - key: SPRING_DATASOURCE_PASSWORD
-        value: @kri$h@A
+        value: your_password
       - key: SPRING_KAFKA_BOOTSTRAP_SERVERS
-        value: localhost:9092
+        value: your-kafka-host:9092
       - key: SPRING_MAIL_USERNAME
         value: tradeonai50@gmail.com
       - key: SPRING_MAIL_PASSWORD
